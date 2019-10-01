@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<title>
+calculator
+</title>
+</head>
+<body>
+<script>
+choice=window.prompt("속도, 속력 구하는 계산기입니다. 속력=s,속도=v");
+
+if(choice=='s'){
+	s2=window.prompt("이동 거리를 입력해주세요. (m단위로 숫자만) ");
+	t1=window.prompt("걸린 시간을 입력해주세요. (s단위로 숫자만) ");
+	alert("속력은 "+s2/t1+"m/s"+"입니다.");
+}
+else if(choice=='v'){
+	d=window.prompt("변위를 입력해주세요. (m단위로 숫자만) ");
+	t2=window.prompt("걸린 시간을 입력해주세요. (s단위로 숫자만) ");
+	alert("속도는 "+d/t2+"m/s"+"입니다.");
+}
+
+
+else{
+	alert("f5를 누르고 다시 입력해주세요");
+}
+
+</script>
+</body>
+</html>
+
